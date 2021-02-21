@@ -1,0 +1,1 @@
+java -jar BigDirectoryDetection.jar D:\\

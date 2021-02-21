@@ -23,5 +23,8 @@
 hs_err_pid*
 
 /*/.idea/
+/*/out/
 
 *.iml
+
+!/BigDirectoryDetection/src/executablefiles/BigDirectoryDetection.jar
