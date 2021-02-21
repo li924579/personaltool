@@ -26,7 +26,8 @@ public class Result implements Comparable<Result>{
 
     public void show() {
 //        System.out.println(fileName + ":   " + kb + " KB   |   " + mb + " MB   |   " + gb + "G");
-        System.out.printf("%s:   %.2fKB   |   %.2fMB   |   %.2fG\n", fileName, kb, mb, gb);
+        System.out.printf("%30s:   %10.2fKB   |   %10.2fMB   |   %10.2fG\n", fileName, kb, mb, gb);
+//        System.out.printf("%s:\t%10.2fKB\t|\t%10.2fMB\t|\t%10.2fG\n", fileName, kb, mb, gb);
     }
 
     @Override

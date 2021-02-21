@@ -3,6 +3,6 @@ package cn.wuerli;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println("游聚游戏平台".length());
     }
 }
