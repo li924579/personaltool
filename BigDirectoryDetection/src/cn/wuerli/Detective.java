@@ -19,9 +19,9 @@ import java.util.concurrent.TimeUnit;
 
 
 public class Detective {
-    public static void main(String[] args) {
-//        String path = "D:\\";
-        String path = args[0];
+    public static void porcess(String args) {
+//        String path = "C:\\Users\\吴尔立\\AppData\\Local";
+        String path = args;
         ThreadPoolExecutor executor = new ThreadPoolExecutor(16, 32, 5, TimeUnit.SECONDS, new ArrayBlockingQueue<>(128), new ThreadPoolExecutor.CallerRunsPolicy());
         File rootFile = new File(path);
         if (!rootFile.isDirectory()) {
